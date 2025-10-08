@@ -7,20 +7,19 @@ class Helmet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double ScenWith = MediaQuery.of(context).size.width;
-    return  Container(
+    return Container(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Container(
-            padding: EdgeInsets.only(left: 20,right: 20),
+            padding: EdgeInsets.only(left: 20, right: 20),
             height: 400,
             width: ScenWith / 2.4,
 
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
               image: DecorationImage(
-
                 image: AssetImage("assets/images/card4.png"),
                 fit: BoxFit.cover,
               ),
@@ -32,12 +31,7 @@ class Helmet extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
-                    Icon(
-                      Icons.favorite_border_outlined,
-                      color: Colors.green,
-                    ),
-
-
+                    Icon(Icons.favorite_border_outlined, color: Colors.green),
                   ],
                 ),
                 Row(
@@ -79,15 +73,21 @@ class Helmet extends StatelessWidget {
                   ],
                 ),
                 Row(
-
                   children: [
-                    Text("R \$ 120",style: TextStyle(fontSize: 13,fontWeight:FontWeight.w500,color: Colors.grey),textAlign: TextAlign.start,),
+                    Text(
+                      "R \$ 120",
+                      style: TextStyle(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w500,
+                        color: Colors.grey,
+                      ),
+                      textAlign: TextAlign.start,
+                    ),
                   ],
                 ),
               ],
             ),
           ),
-
         ],
       ),
     );

@@ -5,8 +5,7 @@ import '../Style/colors.dart';
 
 class Page2appbar extends StatelessWidget {
   String label;
-  Page2appbar({super.key,required this.label});
-
+  Page2appbar({super.key, required this.label});
 
   @override
   Widget build(BuildContext context) {
@@ -30,20 +29,20 @@ class Page2appbar extends StatelessWidget {
             ),
             child: const Icon(
               Icons.arrow_back_ios,
-              color: Colors.white, // Ensure icon is visible
+              color: Colors.white,
             ),
           ),
         ),
-         Text(
+        Text(
           label,
           style: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
-            color: Colors.white, // Ensure text is visible
+            color: Colors.white,
           ),
           textAlign: TextAlign.center,
         ),
-        const SizedBox(width: 70), // Use SizedBox to balance the space
+        const SizedBox(width: 70),
       ],
     );
   }
