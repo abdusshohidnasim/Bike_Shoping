@@ -34,7 +34,7 @@ class Page2appbar extends StatelessWidget {
             ),
           ),
         ),
-        Text(
+         Text(
           label,
           style: TextStyle(
             fontSize: 20,
