@@ -9,5 +9,6 @@ class Custom_Colors{
   static const Color bottomnavitatorcolorprimary=Color(0xffFFFFFF);
   static const Color bottomnavitatorcolorsecendary=Color(0xff000000);
   static const Color textcolor=Color(0xffFFFFFF);
+  static const Color taxtcolor=Color(0xffFFFFFF);
 
 }
