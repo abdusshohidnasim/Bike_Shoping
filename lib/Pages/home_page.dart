@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
           "Choose Your Bike",
           style: TextStyle(
             fontSize: 20,
-            color: Custom_Colors.textcolor,
+            color: Colors.white38,
             fontWeight: FontWeight.bold,
           ),
         ),

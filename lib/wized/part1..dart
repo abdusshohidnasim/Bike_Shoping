@@ -1,4 +1,5 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../Style/colors.dart';
 
@@ -30,7 +31,7 @@ class Part1 extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 26,
-                color: Custom_Colors.textcolor,
+                color: Colors.white,
               ),
             ),
           ),
