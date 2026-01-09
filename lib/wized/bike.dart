@@ -7,7 +7,7 @@ class Car1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double ScenWith = MediaQuery.of(context).size.width;
-    return       Container(
+    return Container(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -97,22 +97,7 @@ class Button extends StatelessWidget {
                 width: 30,
               ),
             ),
-            Container(
-              alignment: Alignment.center,
-              height: 50,
-              width: 50,
 
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    Custom_Colors.bottomColorprimary,
-                    Custom_Colors.bottomColorsecenday,
-                  ],
-                ),
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Image.asset("assets/images/Union.png", width: 30),
-            ),
           ],
         ),
       ),
